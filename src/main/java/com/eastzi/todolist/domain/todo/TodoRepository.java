@@ -13,5 +13,5 @@ public interface TodoRepository { //xml 연결
 	public int updateTodoComplete(int todo_code) throws Exception;
 	public int updateTodoImportance(int todo_code) throws Exception;
 	public int updateTodoByTodoCode(Todo todo) throws Exception;
-	public int remove(int todo) throws Exception;
+	public int remove(int todo_code) throws Exception;
 }

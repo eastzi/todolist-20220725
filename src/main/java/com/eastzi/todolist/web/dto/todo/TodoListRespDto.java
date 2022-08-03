@@ -8,9 +8,9 @@ import lombok.Data;
 @Builder
 @Data
 public class TodoListRespDto {
-	private int todo_code;
+	private int todoCode;
 	private String todo;
-	private int todoComplete;
+	private boolean todoComplete;
 	private boolean importance;
 	private int totalCount;
 	private int incompleteCount;

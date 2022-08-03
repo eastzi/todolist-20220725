@@ -44,7 +44,7 @@
 											<when test='type.equals("complete")'>
 												todo_complete = 1
 											</when>
-											<when test='type.equals("imcomplete")'>
+											<when test='type.equals("incomplete")'>
 												todo_complete = 0
 											</when>
 											<otherwise>
@@ -71,7 +71,7 @@
 				<when test='type.equals("complete")'>
 					todo_complete = 1
 				</when>
-				<when test='type.equals("imcomplete")'>
+				<when test='type.equals("incomplete")'>
 					todo_complete = 0
 				</when>
 				<otherwise>

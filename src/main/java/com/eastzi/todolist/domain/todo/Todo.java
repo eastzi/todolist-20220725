@@ -25,9 +25,9 @@ public class Todo { //Entity 생성 목적 class, db의 컬럼명과 동일하�
 	
 	public TodoListRespDto toListDto() {
 		return TodoListRespDto.builder()
-				.todo_code(todo_code)
+				.todoCode(todo_code)
 				.todo(todo_content)
-				.todoComplete(todo_complete)
+				.todoComplete(todo_complete == 1)
 				.importance(importance_flag == 1)
 				.totalCount(total_count)
 				.incompleteCount(incomplete_count)
